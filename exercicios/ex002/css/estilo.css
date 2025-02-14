@@ -48,9 +48,10 @@ main{
     margin: 10px 0;
 }
 
-p #curi{
+.curiosidade {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row; /* O display:flex TEM POR PADRÃO flex-diretion: row*/
+    justify-content: space-between;
 }
 
 
