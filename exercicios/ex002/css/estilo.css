@@ -16,6 +16,10 @@ header{
     padding-bottom: 10px;
 }
 
+header img{
+    width: 100%;
+}
+
 nav{
     background-color: #47c7c1;
     /* color: #ff0000; */
@@ -28,13 +32,8 @@ nav a{
     color: #0044ff;
     text-decoration: none;
     padding: 10px 20px;
-    /* margin: 0 10px; */
     border-radius: 5px;
 }
-
-/* .historia a{
-    margin-top: 200px;
-} */
 
 .inicio{
     display: flex;
@@ -52,12 +51,20 @@ a{
     text-decoration: none;
 }
 
-a:hover{
-    background-color: #2c7a77;
+.inicio:hover {
+    background-color: #4ed8d1;
+}
+
+.inicio{
+    clear: both;
+}
+
+figcaption{
+    margin-bottom: 20px;
 }
 
 nav a:hover{
-    background-color: #2c7a77;
+    background-color: #4ed8d1;
 }
 
 main{
@@ -65,15 +72,33 @@ main{
 }
 
 .secao {
-    display: flex;
+    background-color: #ffffff;
     padding: 10px;
-    margin: 10px 0;
+    margin-top: -20px;
+    border-radius: 8px;
 }
 
-.curiosidade {
-    display: flex;
-    flex-direction: row; /* O display:flex TEM POR PADRÃO flex-diretion: row*/
-    justify-content: space-between;
+.imagem-direita{
+    float: right;
+}
+
+h2{
+   margin-bottom: 50px;
+}
+
+#pilotos{
+    margin-top: 50px;
+}
+
+h3{
+    clear: both;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.imagem-esquerda{
+    float: left;
+    margin-right: 20px;
 }
 
 footer{
