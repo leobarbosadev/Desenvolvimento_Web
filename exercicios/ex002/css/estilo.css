@@ -7,7 +7,7 @@
 }
 
 main{
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
@@ -28,16 +28,15 @@ body{
 header{
     text-align: center;
     font-size: 1.5rem;
-    padding-bottom: 10px;
 }
 
 header img{
     width: 100%;
+    
 }
 
 nav{
     background-color: #47c7c1;
-    /* color: #ff0000; */
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -46,16 +45,17 @@ nav{
 nav a{
     color: #0044ff;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 50px;
     border-radius: 5px;
 }
 
-.inicio{
+.voltar{
     display: flex;
     justify-content: center;
     margin: 20px 0;
     padding: 10px;
-    background-color: #47c7c1;
+    background-color: #163837;
+    color: #ffffff;
     width: 150px;
     border-radius: 8px;
     clear: both;
@@ -66,8 +66,8 @@ a{
     text-decoration: none;
 }
 
-.inicio:hover {
-    background-color: #4ed8d1;
+.voltar:hover {
+    background-color: #2a7270;
 }
 
 figcaption{
@@ -79,8 +79,8 @@ nav a:hover{
 }
 
 .secao {
-    justify-content: center;
     background-color: #ffffff;
+    margin-top: 0;
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) ;
@@ -88,6 +88,7 @@ nav a:hover{
 
 .imagem-direita{
     float: right;
+    margin-left: 20px;
 }
 
 h2{
@@ -110,7 +111,5 @@ footer{
     background-color: #47c7c1;
     color: #0044ff;
     text-align: center;
-    /* margin: 10px; */
     padding: 15px;
-
 }
