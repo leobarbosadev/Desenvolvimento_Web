@@ -111,6 +111,11 @@ h3{
     margin-right: 20px;
 }
 
+#final{
+    display: flex;
+    gap: 10px;
+}
+
 footer{
     background-color: #47c7c1;
     color: #0044ff;
