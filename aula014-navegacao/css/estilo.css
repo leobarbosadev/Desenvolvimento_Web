@@ -131,7 +131,7 @@ nav{
     color: #FFFFFF;
     display: block;
     position: relative;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .menu-animado li::before{
@@ -151,5 +151,5 @@ nav{
 
 .menu-animado a:hover{
     color: yellow;
-    z-index: 2;
+    /* z-index: 2; */
 }
