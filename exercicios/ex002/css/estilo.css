@@ -40,17 +40,21 @@ header img{
 }
 
 nav{
-    background-color: #47c7c1;
+    background-color: #0D2525;
     padding: 10px;
     display: flex;
     justify-content: center;
 }
 
 nav a{
-    color: #0044ff;
+    color: #46dabf;
     text-decoration: none;
     padding: 10px 50px;
     border-radius: 5px;
+}
+
+nav a:hover{
+    background-color: #163837;
 }
 
 .voltar{
@@ -58,7 +62,7 @@ nav a{
     justify-content: center;
     margin: 20px 0;
     padding: 10px;
-    background-color: #163837;
+    background-color: #0D2525;
     color: #ffffff;
     width: 150px;
     border-radius: 8px;
@@ -71,15 +75,11 @@ a{
 }
 
 .voltar:hover {
-    background-color: #2a7270;
+    background-color: #163837;
 }
 
 figcaption{
     margin-bottom: 10px;
-}
-
-nav a:hover{
-    background-color: #4ed8d1;
 }
 
 .secao {
@@ -117,8 +117,8 @@ h3{
 }
 
 footer{
-    background-color: #47c7c1;
-    color: #0044ff;
+    background-color: #0D2525;
+    color: #46dabf;
     text-align: center;
     padding: 15px;
 }
