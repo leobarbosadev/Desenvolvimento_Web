@@ -97,11 +97,11 @@ figcaption{
 
 h2{
    margin: 30px 0;
-   clear: both;
+   /* clear: both; */
 }
 
 h3{
-    clear: both;
+    /* clear: both; */
     margin-top: 20px;
     margin-bottom: 10px;
 }
