@@ -56,6 +56,12 @@ body{
 .img-esquerda{
     float: left;
     margin-right: 10px;
+    clear: both;
+}
+
+.img-direita{
+    clear: both;
+    float: right;
 }
 
 h2{
@@ -72,4 +78,11 @@ h3{
 a{
     text-decoration: none;
     color: #BFA678;
+}
+
+footer{
+    background-color: #6A747D;
+    color: #40372F;
+    padding: 15px;
+    text-align: center;
 }
