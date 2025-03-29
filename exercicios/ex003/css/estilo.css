@@ -26,7 +26,7 @@ header img{
 }
 
 nav{
-    background-color: #6A747D;
+    background-color: #828e99;
     padding: 10px;
     display: flex;
     justify-content: space-around;
@@ -40,7 +40,7 @@ nav a{
 }
 
 nav a:hover{
-    background-color: #839099 ;
+    background-color: #6A747D ;
 }
 
 body{
@@ -81,7 +81,7 @@ a{
 }
 
 footer{
-    background-color: #6A747D;
+    background-color: #828e99;
     color: #40372F;
     padding: 15px;
     text-align: center;
