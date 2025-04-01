@@ -21,7 +21,7 @@ header h1{
     align-content: center;
     height: 90vh;
     width: 100%;
-    color: #ffffff;
+    color: #BFA678;
     position: absolute;
     z-index: 2;
 }
@@ -60,26 +60,31 @@ body{
     padding: 15px;
 }
 
+article{
+    height: 100%;
+    margin: 40px;
+}
+
 .img-esquerda{
     float: left;
     margin-right: 10px;
-    clear: both;
 }
 
 .img-direita{
-    clear: both;
     float: right;
 }
 
 h2{
     text-align: center;
     color: #8C884A;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 h3{
     color: #40372F;
-    margin: 30px 0;
+    margin-bottom: 25px;
+    margin-top: 45px;
+
 }
 
 a{
