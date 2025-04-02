@@ -112,3 +112,27 @@ footer{
     padding: 15px;
     text-align: center;
 }
+
+table{
+    width: 80%;
+    /*Centraliza a tabela na página*/
+    margin: 20px auto;
+    /*Remove o espaçamento entre as bordas das células*/
+    border-collapse: collapse;
+    background-color: #ffffff;
+    /*Adiciona sombra a tabela*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*Define estilo das células da tabela(tanto cabeçalho quanto corpo)*/
+th,td{
+    border: 1px solid #dddddd;
+    padding: 10px;
+    text-align: center;
+}
+
+/*Define o estilo do cabeçalho da tabela*/
+th{
+    background-color: #73685F;
+    color: #BFA678;
+}
