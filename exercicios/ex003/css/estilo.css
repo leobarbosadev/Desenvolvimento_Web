@@ -77,14 +77,24 @@ article{
 h2{
     text-align: center;
     color: #8C884A;
-    /* margin-bottom: 10px; */
+    font-size: 1.6em;
 }
 
 h3{
     color: #40372F;
     margin-bottom: 25px;
     margin-top: 45px;
+}
 
+
+#imagem-sobre{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.texto-sobre{
+    margin-top: 30px;
 }
 
 a{
@@ -92,6 +102,10 @@ a{
     color: #BFA678;
 }
 
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
 footer{
     background-color: #828e99;
     color: #40372F;
