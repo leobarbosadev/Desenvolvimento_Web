@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário Elaborado</title>
+</head>
+
+<body>
+  <h1>Formulário de Inscrição</h1>
+
+  <form action="enviar" method="post">
+
+    <label for="nome">Nome Completo:</label>
+    <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+    <br><br>
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" placeholder="exemplo@dominio.com" required>
+    <br><br>
+    <label for="telefone">Telefone:</label>
+    <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" pattern="\(\d{2}\) \d{5}-\d{4}"
+      required>
+    <br><br>
+
+    <label for="genero">Gênero:</label>
+    <select name="genero" id="genero">
+      <option value="masculino">Masculino</option>
+      <option value="feminino">Feminino</option>
+      <option value="outros">Outro</option>
+      <option value="prefiro_nao_dizer">Prefiro não dizer</option>
+    </select>
+    <br><br>
+
+    <label for="termos">
+      <input type="checkbox" name="termos" id="termos" required> Eu aceito os termos e condições.
+    </label>
+    <br><br>
+
+    <label for="data_nascimento">Data de Nascimento:</label>
+    <input type="date" name="data_nascimento" id="data_nascimento" required>
+    <br><br>
+
+    <label for="interesses">Interesses (selecione múltiplos):</label>
+    <select name="interesses" id="interesses" miltiple>
+      <option value="esportes">Esportes</option>
+      <option value="musica">Música</option>
+      <option value="tecnologia">Tecnologia</option>
+      <option value="viagens">Viagens</option>
+    </select>
+    <br><br>
+
+    <label for="arquivo">Envie seu currículo (PDF):</label>
+    <input type="file" name="arquivo" id="arquivo" accept=".pdf">
+    <br><br>
+
+    <label for="mensagem">Mensagem:</label>
+    <textarea name="mensagem" id="mensagem" rows="4" placeholder="Escreva uma mensagem..."></textarea>
+    <br><br>
+
+    <button type="submit">Enviar inscrição</button>
+  </form>
+</body>
+
+</html>
