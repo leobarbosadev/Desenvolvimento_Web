@@ -54,7 +54,6 @@ header, nav, main, section, aside, footer{
 .conteudo-principal{
     display: flex;
     flex: 1;
-
     flex-direction: row;
 }
 
