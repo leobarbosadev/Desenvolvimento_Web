@@ -47,6 +47,7 @@ ul{
     list-style: none;
     padding: 10px;
 }
+
 article p{
     width: 70%;
     margin: auto;
@@ -117,8 +118,6 @@ footer{
     height: 260px;
     background-color: #f5f8c7;
     margin: 30px auto;
-
-
 }
 
 #curiosidades{
@@ -174,5 +173,4 @@ footer{
     #secao-curiosidades{
         height: 70vh;
     }
-
 }
