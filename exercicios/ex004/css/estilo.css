@@ -130,6 +130,7 @@ footer{
     line-height: 1.2;
 }
 
+
 @media (max-width: 768px){
     
     header{
@@ -139,7 +140,7 @@ footer{
         padding: 10px;
     }
 
-    #navegacao li{
+    .navegacao li{
         width: 90vw;
         border-bottom: 1px solid #7a5865;
     }
@@ -148,15 +149,15 @@ footer{
         border-bottom: 1px solid #7a5865;
     } */
 
-    #conteudo-principal{
+    .conteudo-principal{
         flex-direction: column;
     }
 
-    #conteudo{
+    .conteudo{
         flex-direction: column;
     }
 
-    #navegacao ul{
+    .navegacao ul{
         flex-direction: column;
     }
 
