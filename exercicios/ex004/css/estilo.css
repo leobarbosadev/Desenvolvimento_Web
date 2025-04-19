@@ -66,26 +66,26 @@ footer{
     text-align: center;
 }
 
-#navegacao ul{
+.navegacao ul{
     display: flex;
     justify-content: center;
 }
 
-#navegacao li{
+.navegacao li{
     padding: 10px 16px;
     text-align: center;
 }
 
-#navegacao li:hover{
+.navegacao li:hover{
     border-bottom: 1px solid #520120;
 }
 
-#navegacao li > a{
+.navegacao li > a{
     text-decoration: none;
     color: #520120;
 }
 
-#conteudo{
+.conteudo{
     padding-top: 20px;
     display: flex;
     flex-direction: row;
@@ -113,6 +113,7 @@ footer{
     width: 80%;
     height: 260px;
     background-color: #f5f8c7;
+    border-radius: 5px;
     margin: 30px auto;
 }
 
