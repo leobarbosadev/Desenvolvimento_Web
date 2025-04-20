@@ -21,12 +21,6 @@ h1{
     font-size: 2.5em;
 }
 
-h2{
-    color: #520120;
-    text-align: center;
-    padding-top: 20px;
-}
-
 header{
     min-height: 70px;
     background-color: #f5f8c7;
@@ -60,10 +54,49 @@ footer{
     font-weight: bold;
     color: #520120;
     padding: 20px;
+    margin-top: 15px;
+}
+
+table{
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    border: 2px solid #f5f8c7;
+    /* background-color: red; */
+}
+
+th{
+    background-color: #f5f8c7;
+    color: #520120;
+}
+
+th, td{
+    border: 2px solid #f5f8c7;
+    padding: 10px;
+    text-align: center;
+}
+
+tr:hover{
+    background-color: #f5f8c7;
 }
 
 #titulo{
+    font-size: 3em;
+    padding-bottom: 20px;
     text-align: center;
+}
+
+#titulo-curiosidades{
+    color: #520120;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.titulo-produtos-servicos{
+    color: #520120;
+    text-align: center;
+    padding-bottom: 30px;
+    padding: 15px 0;
 }
 
 .navegacao ul{
@@ -100,13 +133,8 @@ footer{
 #banner{
     width: 100%;
     height: 90vh;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     object-fit: cover;
-}
-
-#titulo{
-    font-size: 3em;
-    padding-bottom: 20px;
 }
 
 #secao-curiosidades{
@@ -114,7 +142,8 @@ footer{
     height: 260px;
     background-color: #f5f8c7;
     border-radius: 5px;
-    margin: 30px auto;
+    margin: auto;
+    margin-top: 20px;
 }
 
 #curiosidades{
@@ -128,6 +157,26 @@ footer{
     padding-bottom: 10px;
     padding-right: 10px;
     line-height: 1.2;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 15px;
+}
+
+.card {
+    margin: auto;
+    width: 280px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #dee67c; /* Apenas para visualização */
 }
 
 
