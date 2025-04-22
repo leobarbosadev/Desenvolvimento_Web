@@ -146,6 +146,26 @@ tr:hover{
     object-fit: cover;
 }
 
+.card {
+    margin: auto;
+    width: 280px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #dee67c; /* Apenas para visualização */
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 15px;
+}
+
 #secao-curiosidades{
     width: 80%;
     height: 260px;
@@ -168,26 +188,47 @@ tr:hover{
     line-height: 1.2;
 }
 
-.cards{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 10px;
-    padding-bottom: 15px;
+#mapa, #formulario{
+    width: 40%;
+    height: 500px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f5f8c7;
+    border-radius: 8px;
 }
 
-.card {
+.titulo-contato{
+    color: #520120;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/* #formulario{
+    width: 50%;
+    height: 500px;
     margin: auto;
-    width: 280px;
-    height: 280px;
+    padding: 20px;
+    background-color: #f5f8c7;
+    border-radius: 8px;
+    display: block;
+} */
+
+label{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: 1px solid #dee67c; /* Apenas para visualização */
+    margin: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
 }
 
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+}
 
 @media (max-width: 768px){
     
@@ -201,7 +242,7 @@ tr:hover{
     .imagem-sobre{
         width: 100%;
     }
-    article p{
+    article p, h3{
         width: 100%;
     }
 
@@ -209,10 +250,6 @@ tr:hover{
         width: 90vw;
         border-bottom: 1px solid #7a5865;
     }
-
-    /* #navegacao li:hover{
-        border-bottom: 1px solid #7a5865;
-    } */
 
     .conteudo-principal{
         flex-direction: column;
@@ -234,6 +271,16 @@ tr:hover{
     }
 
     #secao-curiosidades{
-        height: 70vh;
+        height: 50vh;
     }
+
+    #mapa, #formulario{
+        width: 80%;
+        margin: auto;
+    }
+
+    #mapa{
+        margin-bottom: 20px;
+    }
+
 }
