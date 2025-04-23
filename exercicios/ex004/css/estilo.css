@@ -108,6 +108,43 @@ tr:hover{
     padding-top: 20px;
 }
 
+#secao-curiosidades{
+    width: 80%;
+    height: 260px;
+    background-color: #f5f8c7;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#curiosidades{
+    display: block;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+#curiosidades li{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    line-height: 1.2;
+}
+
+#mapa, #formulario{
+    width: 40%;
+    height: 500px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f5f8c7;
+    border-radius: 8px;
+}
+
+#imagem-conteudo{
+    display: flex;
+    flex: 2;
+}
+
 .subtitulo{
     color: #520120;
     text-align: center;
@@ -139,11 +176,6 @@ tr:hover{
     display: flex;
     flex-direction: row;
     flex: 1;
-}
-
-#imagem-conteudo{
-    display: flex;
-    flex: 2;
 }
 
 .banner{
@@ -186,38 +218,6 @@ tr:hover{
     color: #520120;
     padding-bottom: 10px;
     text-align: center;
-}
-
-#secao-curiosidades{
-    width: 80%;
-    height: 260px;
-    background-color: #f5f8c7;
-    border-radius: 5px;
-    margin: auto;
-    margin-top: 20px;
-}
-
-#curiosidades{
-    display: block;
-    list-style-type: disc;
-    list-style-position: inside;
-}
-
-#curiosidades li{
-    padding-left: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    line-height: 1.2;
-}
-
-#mapa, #formulario{
-    width: 40%;
-    height: 500px;
-    margin: auto;
-    padding: 20px;
-    text-align: center;
-    background-color: #f5f8c7;
-    border-radius: 8px;
 }
 
 @media (max-width: 768px){
