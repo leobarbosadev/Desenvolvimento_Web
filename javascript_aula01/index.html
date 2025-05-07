@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula001 - Java Script</title>
+</head>
+<body>
+    <!-- Exemplo ruim (obstrutivo) -->
+    <button onclick="alert('OK')">Clique</button>
+    
+    <!-- Exemplo correto -->
+     <button id="meuBotao">Clique</button>
+     <script>
+        document.getElementById('meuBotao').addEventListener('click',() => {
+            alert('Ok') //Comportamento separado do HTML
+        })
+     </script>
+</body>
+</html>
