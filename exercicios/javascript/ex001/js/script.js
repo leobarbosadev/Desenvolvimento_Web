@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
     let valor2 = document.getElementById('valor2');
 
-    let resultado = document.getElementById('resultado')
+    let resultado = document.getElementById('resultado');
     
     // const btnSoma = document.getElementById('soma')
     
