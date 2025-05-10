@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function (){
     //Obtém a referência ao elemento <ul> com id "saida"
     const ul = document.getElementById('saida');
 
-    //Função que limpa o conteúdo da lista (zera o innerHTML da <ul>)
+    //Função que limpa o conteúdo da lista (zera o innerHTML da <ul>) para quando tenho mais de um botão.
     const limpar = () => ul.innerHTML = '';
 
     //Função que adiciona um <li> com texto dentro da <ul>
