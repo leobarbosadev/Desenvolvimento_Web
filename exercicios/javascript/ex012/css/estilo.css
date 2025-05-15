@@ -21,7 +21,6 @@ section{
     justify-content: center;
     padding: 15px 0;
     width: 400px;
-    /* height: 150px; */
     border-radius: 8px;
 }
 
@@ -46,7 +45,6 @@ h1{
 }
 
 #iniciar{
-    /* align-items: center; */
     font-size: 1.2em;
     width: 80px;
 }

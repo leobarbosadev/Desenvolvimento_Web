@@ -1,24 +1,26 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    const iniciar = document.querySelector('#iniciar');
+    let resultado = document.getElementById('resultado');
 
-    let resultado = document.querySelector('#resultado');
-
-    
+    //Se eu quiser iniciar a contagem ao carregar a páginam só tirar essa linha abaixo
     document.getElementById('iniciar').addEventListener('click', function() {
+        //Define a variável de contagem
         let i = 10;
-
-        // Usar setInterval() reduzindo 1s (1000ms) para funcionar 
-        // clearInterval() remove as informações do contador anterior
-        const contadorRegressivo = setInterval(() => {
-            resultado.textContent = i;
+ 
+        const contadorRegressivo = 
+        // Usar setInterval() reduzindo 1s (1000ms) para funcionar
+        setInterval(() => {
             i--;
+
+            resultado.textContent = `00:0${i}`;
             
             if (i < 0) {
+                // clearInterval() remove as informações do contador anterior
                 clearInterval(contadorRegressivo);
                 resultado.textContent = 'Tempo esgotado!';
             }
         }, 1000);
+        
     });
 
 })
