@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
     document.getElementById('palavra').addEventListener('input', function(){
         // contar = caracteres.value.length;
-        resultado.textContent = caracteres.value.length; //contar
+        resultado.textContent = `${caracteres.value.length} caractere(s)`; //contar
     })
 })
 
