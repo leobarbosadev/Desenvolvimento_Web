@@ -1,59 +1,59 @@
-/* Criar o css do exercício */
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    display: flex;
+body{
+    display: flex;  
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #000000;
+    background-color: #0e0e53;
 }
 
-section {
+section{
     display: flex;
     flex-direction: column;
-    background-color: #ffffff;
+    background-color: #e2e0e0;
     align-items: center;
     justify-content: center;
-    padding: 20px;
-    width: 800px;
-    border-radius: 5px;
-}
-
-
-article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    width: 100%;
-}
-
-button {
-    align-items: center;
-    width: 80%;
-    font-size: 2em;
-    padding: 5px;
+    padding: 15px 0;
+    width: 400px;
+    /* height: 150px; */
+    border-radius: 8px;
 }
 
 input{
-    width: 80%;
     padding: 5px;
-    margin-top: 10px;
-    font-size: 1.5em;
-    text-align: center;
+    margin-top: 5px;
+    font-weight: bolder;
 }
 
-
-h1, #resultado {
-    text-align: center;
-    width: 80%;
+h1{
+    padding-bottom: 10px;
     font-size: 2em;
-    color: #000000;
+}
+
+#botao{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: center;
+    padding-top: 15px;
+    width: 100%;
+}
+
+#iniciar{
+    /* align-items: center; */
+    font-size: 1.2em;
+    width: 80px;
+}
+
+#resultado{
+    padding-top: 15px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-align: center;
 }
