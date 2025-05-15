@@ -36,21 +36,6 @@ h1{
     font-size: 2em;
 }
 
-#botao{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    text-align: center;
-    padding-top: 15px;
-    width: 100%;
-}
-
-#soma, #subtracao, #divisao, #multiplicacao{
-    /* align-items: center; */
-    font-size: 1.2em;
-    width: 60px;
-}
-
 #resultado{
     padding-top: 15px;
     font-size: 1.5em;
