@@ -14,8 +14,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
             resultado.textContent = `00:0${i}`;
             
-            if (i < 0) {
-                // clearInterval() remove as informações do contador anterior
+            if (i <= 0) {
+                // clearInterval() para a contagem do setInterval quando i <= 0
                 clearInterval(contadorRegressivo);
                 resultado.textContent = 'Tempo esgotado!';
             }
