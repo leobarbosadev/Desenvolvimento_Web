@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
             
             if (i < 0) {
                 // clearInterval() remove as informações do contador anterior
-                clearInterval(contadorRegressivo);
+                // clearInterval(contadorRegressivo);
                 resultado.textContent = 'Tempo esgotado!';
             }
         }, 1000);

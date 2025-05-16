@@ -6,11 +6,16 @@ document.addEventListener('DOMContentLoaded', function () {
     let resultado = document.getElementById('saida');
 
     verificar.addEventListener('click', function() {
-        let teste = dado.value;
 
-        const tipoDado = typeof(teste);
-        // Sempre retornará string vindo de um input
-        resultado.textContent = `O tipo do dado inserido é: ${tipoDado}.`;
+         const tipoDado = dado.value.toLowerCase();
+        if (tipoDado === 'true' || tipoDado === 'false'){
+            resultado.textContent = `O tipo do dado é um booleno`;
+        }else if(parseFloat(tipoDado) == tipoDado){
+
+            resultado.textContent = `O tipo do dado é um numero`;
+        }else{
+            resultado.textContent = `O tipo do dado é uma string`;
+        }
     });
 
-})
+});
