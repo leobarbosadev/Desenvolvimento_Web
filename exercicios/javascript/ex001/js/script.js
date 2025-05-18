@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function(){
-    let valor1 = document.getElementById('valor1');
+    const valor1 = document.getElementById('valor1');
 
-    let valor2 = document.getElementById('valor2');
+    const valor2 = document.getElementById('valor2');
 
-    let resultado = document.getElementById('resultado');
+    const resultado = document.getElementById('resultado');
     
     // const btnSoma = document.getElementById('soma')
     
@@ -24,13 +24,13 @@ document.addEventListener('DOMContentLoaded', function(){
     });
 
     document.getElementById('divisao').addEventListener('click', function(){
+        calculo = parseFloat(valor1.value) / parseFloat(valor2.value)
+        
         if (parseFloat(valor2.value) == 0){
 
             resultado.textContent = 'Não existe divisão por 0'
 
         }else{
-            calculo = parseFloat(valor1.value) / parseFloat(valor2.value)
-        
             resultado.textContent = calculo
         }
     });
