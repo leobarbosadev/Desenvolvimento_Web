@@ -1,0 +1,13 @@
+document.addEventListener('DOMContentLoaded', function(){
+    const resultado = document.getElementById('resultado');
+
+    document.getElementById('btnAdicionar').addEventListener('click', function(){
+        let contador = 0;
+        let incremento = contador++;
+        console.log(incremento);
+
+        resultado.textContent = incremento;
+
+
+    });
+})

@@ -1,0 +1,21 @@
+document.addEventListener('DOMContentLoaded', function(){
+    const cor_fundo = document.getElementById('cor-fundo');
+    const cor_texto = document.getElementById('cor-texto');
+    const cor_caixa = document.getElementById('cor-caixa');
+    const texto = document.getElementById('texto');
+    const caixa = document.getElementById('caixa');
+
+    const body = document.body;
+
+    document.getElementById('cor-fundo').addEventListener('input', function(){
+       body.style.backgroundColor = cor_fundo.value;
+    });
+
+    document.getElementById('cor-texto').addEventListener('input', function(){
+        texto.style.color = cor_texto.value;
+    });
+
+    document.getElementById('cor-caixa').addEventListener('input', function(){
+        caixa.style.backgroundColor = cor_caixa.value;
+    });
+})
