@@ -45,7 +45,7 @@ document.getElementById('triplo').addEventListener('click', function(){
 });
 
 // Campo numérico - Permite calcular com a tecla Enter
-document.getElementById('teste').addEventListener('keypress', function(enter){
+document.getElementById('numero').addEventListener('keypress', function(enter){
     //Verifica se a tecla precionada foi o Enter (código 13)
     if(enter.key === 'Enter'){
         //Por padrão, calcula o dobro quando Enter é precionado
