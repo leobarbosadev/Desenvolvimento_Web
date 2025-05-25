@@ -3,6 +3,7 @@ body{
     background-color: #f4f4f9;
     margin: 0;
     padding: 40px 20px;
+    display: flex;
     justify-content: center;
 }
 
@@ -38,6 +39,7 @@ input[type="number"]{
     margin-bottom: 15px;
     border: 1px solid #cccccc;
     border-radius: 6px;
+    font-size: 1rem;
 }
 
 button{
@@ -48,11 +50,11 @@ button{
     border-radius: 6px;
     font-size: 1rem;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 1s;
 }
 
 button:hover{
-    background-color: #2980b9;
+    background-color: #153f5c;
 }
 
 .resultado{

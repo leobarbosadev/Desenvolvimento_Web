@@ -10,12 +10,12 @@
     <main>
         <h1>Claculadora de Área do Quadrado</h1>
         <label for="ladoInput">Informe o valor do lado:</label>
-        <!-- 'any' signifca que qualquer valor numérico é aceito (incluindo decimais)-->
+        <!-- 'any' signifca que qualquer valor numérico é aceito (incluindo decimais) - usado para validações-->
          <input type="number" name="ladoInput" id="ladoInput" placeholder="Ex: 5" min="0" step="any">
          <button id="calcularBtn">Calcular Área</button>
          <p id="resultado" class="resultado"></p>
     </main>
-    
+    <!-- Posso utilizar a atributo defer, nesse caso não é necessário, só seria se a linha abaixo estivesse dentro do <head>, pois ai o script carrega em paralelo com o HTML e não bloqueia o carregamento do HTML -->
     <script src="js/script.js" defer></script>
 </body>
 </html>
