@@ -23,6 +23,8 @@ document.addEventListener('DOMContentLoaded', () =>{
         mostrarMensagem(`A área do quadrado com lado ${lado} é: ${area}`);
     });
 });
+
+// PARA ORGANIZAÇÃO, ESSAS FUNÇÕES FICAM NO INÍCIO DE TUDO
 //Função que calcula a área de um quadrado (lado * lado)
 function calcularAreaQuadrado(lado){
     return lado * lado;
