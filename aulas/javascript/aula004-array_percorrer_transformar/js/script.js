@@ -18,4 +18,19 @@ const pessoas = [
     {nome: 'Gal Gadot', idade: 40, cidade: 'Rosh HaAyin'},
     {nome: 'Elizabeth Olsen', idade: 36, cidade: 'Sherman Oaks'},
     {nome: 'Alexandra Daddario', idade: 39, cidade:'Nova York'},
-]
+    {nome: 'Anna de Armas', idade: 37, cidade:'Havana'},
+    {nome: 'Grace Kelly', idade: 95, cidade:'Filadélfia'},
+    {nome: 'Jaz Sinclair', idade: 17, cidade:'Dallas'},
+];
+
+//======================================================
+//MÉTODO DE ITERAÇÃO
+//======================================================
+
+/**
+ * MÉTODO: forEach() (paraCada)
+ * DESCRIÇÃO: Executa uma função para cada elemento do array
+ * NÃO RETORNA um novo array
+ */
+
+document.getElementById('botao-paraCada').addEventListener('click')
