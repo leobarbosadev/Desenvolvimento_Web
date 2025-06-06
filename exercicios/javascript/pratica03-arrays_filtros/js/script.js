@@ -28,8 +28,6 @@ document.addEventListener('DOMContentLoaded', function(){
         const arrayFiltrado = produtos.filter(function(categoria){
                 return categoria.categoria === 'alimentos';
             });
-            resultado.innerHTML = `${arrayFiltrado}`
-
         let saida = '';
         let soma = 0;
 
@@ -45,8 +43,6 @@ document.addEventListener('DOMContentLoaded', function(){
         const arrayFiltrado = produtos.filter(function(categoria){
             return categoria.categoria === 'cosmeticos';
         });
-        resultado.innerHTML = `${arrayFiltrado}`
-
         let saida = '';
         let soma = 0;
 
