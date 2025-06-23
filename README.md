@@ -1,3 +1,2 @@
 # Desenvolvimento_Web
-
-Meu repositório de Banco de Dados para fins didáticos
+Meu repositório de Desenvolvimento Web para fins didáticos
