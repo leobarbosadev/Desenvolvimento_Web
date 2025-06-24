@@ -1,3 +1,24 @@
-// A empresa WebData Solutions contratou você para desenvolver uma página interativa que ajude seus usuários a classificar números.
-// Eles precisam de uma interface onde o usuário insira um número inteiro, clique em um botão e receba na tela a informação se o número é par ou ímpar.
-// Esse recurso será integrado ao site da empresa para pequenos cálculos rápidos.
+document.addEventListener('DOMContentLoaded', function(){
+    const numero = document.getElementById('numero');
+
+    const verificar = document.getElementById('verificar');
+
+    const resultado = document.getElementById('resultado');
+
+    function verificarParImpar(){
+        // if(isNaN(numero.value)){
+        //     resultado.textContent = 'Não é número'
+        //     return;
+        // }
+
+        if(parseInt(numero.value) % 2 == 0){
+            resultado.textContent = `O número ${numero.value} é par`
+        }
+        else{
+            resultado.textContent = `O número ${numero.value} é ímpar`
+        }
+    }
+    verificar.addEventListener('click',function(){
+        verificarParImpar()
+    })
+})

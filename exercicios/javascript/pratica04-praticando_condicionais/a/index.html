@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +7,21 @@
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-    <h1>Verificar se é par ou ímpar</h1>
-    <label for="numero">Digite um número</label>
-    <input type="number">
-    
+    <header>
+        <h1>É par ou ímpar?</h1>
+    </header>
+    <main>
+        <section>
+            <article>
+                <label for="numero">Digite um número</label>
+                <input type="number" name="numero" id="numero">
+
+                <button id="verificar">Verificar</button>
+                
+                <p id="resultado"></p>
+            </article>
+        </section>
+    </main>
     
     <script src="js/script.js"></script>
 </body>
