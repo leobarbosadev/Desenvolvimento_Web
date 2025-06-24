@@ -24,12 +24,13 @@ h2{
 }
 
 input[type=number]{
+    font-size: 1.5em;
     padding: 8px;
-      width: 100%;
-      margin: 8px 0 16px;
-      box-sizing: border-box;
-      border: 1px solid #ccc;
-      border-radius: 4px;
+    width: 100%;
+    margin: 8px 0 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 #verificar{
@@ -46,6 +47,7 @@ input[type=number]{
 }
 
 #resultado{
+    font-size: 1.5em;
     padding-top: 15px;
     font-weight: bold;
     color: #114911;
