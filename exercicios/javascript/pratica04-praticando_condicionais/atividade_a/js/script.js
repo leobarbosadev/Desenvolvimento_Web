@@ -1,16 +1,14 @@
 document.addEventListener('DOMContentLoaded', function(){
-    // const numero = document.getElementById('numero');
     
-    const numero = parseInt(document.getElementById('numero').value);
-
     const verificar = document.getElementById('verificar');
-
+    
     const resultado = document.getElementById('resultado');
-
+    
     function verificarParImpar(){
+        const numero = parseInt(document.getElementById('numero').value);
         
         if(isNaN(numero)){
-            resultado.textContent = 'Não é número'
+            resultado.textContent = 'Não é número, favor digita um número válido!!!!'
             return;
         }
 
