@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function(){
             resultado.textContent = `Sua velociade é de ${velocidade.value}KM/h, está dentro do limite da via, use sempre o sinto de segurança`
         }
         else{
-            resultado.textContent = `Sua velociade é de ${velocidade.value}KM/h, está acima do limite da via, use sempre o sinto de segurança`
+            resultado.textContent = `ATENÇÃO!!!! sua velocidade é ${velocidade.value}KM/h, acima da velocidade permitida`
         }
     }
 
