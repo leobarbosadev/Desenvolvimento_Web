@@ -6,7 +6,6 @@
 
 document.addEventListener('DOMContentLoaded', function(){
     
-    
     const verificar = document.getElementById('verificar');
 
     const resultado = document.getElementById('resultado');
