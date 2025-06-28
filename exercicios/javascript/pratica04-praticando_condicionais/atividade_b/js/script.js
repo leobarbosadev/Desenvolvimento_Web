@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function(){
     
         const num3 = parseFloat(document.getElementById('numero3').value);
 
-        if(num1 == num2 == num3){
+        if(num1 == num2 && num2 == num3){
             resultado.textContent = 'Os números são iguais'
         }
         else{
