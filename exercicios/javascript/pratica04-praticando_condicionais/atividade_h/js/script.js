@@ -30,8 +30,6 @@ document.addEventListener('DOMContentLoaded', function(){
                 
                 resultado.textContent = `O valor de \u0394 é ${delta}, os valores das raizes serão iguais a: x'= ${x1} e x''= ${x2}` // \u0394 É O SÍMBOLO DE DELTA EM UNICODE
             }
-            //VALIDAR O VALOR DE a NÃO PODE SER 0
-
         }
     }
 
