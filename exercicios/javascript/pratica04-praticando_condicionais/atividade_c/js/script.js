@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function(){
     const velocidade = document.getElementById('velocidade');
 
-    const verificar = document.getElementById('verificar');
+    const verificar = document.getElementById('btnVelocidade');
 
     const resultado = document.getElementById('resultado');
 

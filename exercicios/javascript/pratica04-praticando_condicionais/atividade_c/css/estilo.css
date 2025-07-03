@@ -33,7 +33,7 @@ input[type=number]{
     border-radius: 4px;
 }
 
-#verificar{
+#btnVelocidade{
     background-color: #2a9e2a;
     color: #ffffff;
     padding: 10px;
@@ -42,7 +42,7 @@ input[type=number]{
     cursor: pointer;
 }
 
-#verificar:hover{
+#btnVelocidade:hover{
     background-color: #114911;
 }
 
