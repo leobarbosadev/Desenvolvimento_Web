@@ -1,9 +1,14 @@
-export function validarEntrada(entrada, saida){ //PRECISO USAR O export PARA TORNAR A FUNÇÃO DISPONÍVEL EM OUTROS ARQUIVOS
-    const entrada = document.getElementById(entrada);
-    const saida = document.getElementById(saida);
-    if(entrada == 2){ 
-        saida.textContent = 'TESTE';
+export function validarEntrada(valor){ //PRECISO USAR O export PARA TORNAR A FUNÇÃO DISPONÍVEL EM OUTROS ARQUIVOS
+    console.log(valor)
+    
+    const saida = document.getElementById('resultado')
+    if(valor === ''){ 
+        console.log('Validacao')
+        saida.textContent = 'VAZIO';
+        return null
     }
+
+    return valor;
 
     }
 
