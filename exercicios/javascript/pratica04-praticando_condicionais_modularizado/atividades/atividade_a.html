@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Par ou ímpar</title>
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="../css/estilo.css">
 </head>
 <body>
         <section id="secao">
             <form action="">
             <h2>É par ou ímpar?</h2>
-            <label for="numero">Digite um número</label>
-            <input type="number" name="numero" id="numero" required>
+            <label for="num">Digite um número</label>
+            <input type="number" name="num" id="numero" placeholder="Ex: 1">
 
-            <button type="button" id="verificar">Verificar</button>
+            <button type="button" id="btnVerificarParImpar">Verificar</button>
             </form>
+
             <p id="resultado"></p>
         </section>
     
-        <script type="module" src="src/main.js"></script>
+        <script type="module" src="../src/main.js"></script>
 </body>
 </html>

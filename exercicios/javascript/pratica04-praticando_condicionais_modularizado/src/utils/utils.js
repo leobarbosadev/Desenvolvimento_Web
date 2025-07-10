@@ -1,10 +1,9 @@
 export function validarEntrada(valor){ //PRECISO USAR O export PARA TORNAR A FUNÇÃO DISPONÍVEL EM OUTROS ARQUIVOS
-    console.log(valor)
     
     const saida = document.getElementById('resultado')
     if(valor === ''){ 
-        console.log('Validacao')
-        saida.textContent = 'VAZIO';
+        saida.style.color = '#FF0000'
+        saida.textContent = 'Atenção!!! Nenhum campo pode ser vazio';
         return null
     }
 
@@ -12,6 +11,10 @@ export function validarEntrada(valor){ //PRECISO USAR O export PARA TORNAR A FUN
 
     }
 
+
 export function adicionarEventoBotao(idBotao, funcao) {
-    document.getElementById(idBotao).addEventListener('click', funcao);
+    if(idBotao){
+        idBotao.addEventListener('click', funcao);
+    }
 }
+
